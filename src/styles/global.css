@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  cursor: grab;
+  background: #7367f0;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #695edb;
+}
+
+::-moz-selection {
+  color: white;
+  background: #641ae6;
+}
+::selection {
+  color: white;
+  background: #641ae6;
+}
+
+@layer utilities {
+  .smScroll::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .smScroll::-webkit-scrollbar-thumb {
+    cursor: grab;
+    background: #7367f0;
+    border-radius: 5px;
+  }
+  .smScroll::-webkit-scrollbar-thumb:hover {
+    background: #695edb;
+  }
+
+  .center {
+    @apply flex items-center;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-start {
+    @apply flex items-start justify-start;
+  }
+
+  .flex-end {
+    @apply flex items-center justify-end;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem/* 32px */;
+  padding-left: 2rem/* 32px */;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
