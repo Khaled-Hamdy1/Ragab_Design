@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Merienda One';
+  src: url('@/assets/static/Merienda-ExtraBold.ttf') format('truetype');
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;

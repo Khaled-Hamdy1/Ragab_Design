@@ -24,7 +24,7 @@ export default function Header() {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
   return (
     <header className='w-full max-w-[2764px] bg-[#1C566D]'>
-      <div className='flex-center container flex-col gap-5 px-2 py-3'>
+      <div className='flex-center container flex-col gap-5 px-2'>
         <ul className='flex w-full justify-end'>
           <li className='cursor-pointer px-2 py-1 hover:bg-[#3f444b]'>
             <img src={english} alt='English' />
@@ -39,12 +39,11 @@ export default function Header() {
               width='300'
               height='122'
               src={logo}
-              className=''
               alt='Logo Memnon'
             />
           </a>
         </figure>
-        <ul className='hidden flex-wrap gap-3 p-2 font-list text-[22px] font-semibold text-[#f58732] md:flex md:justify-center'>
+        <ul className='hidden flex-wrap gap-3 px-2 font-list text-[22px] font-semibold text-[#f58732] md:flex md:justify-center'>
           <ListItem title='Home' />
           <ListItem title='Who we are ?' />
           <ListItem title='Guest book' />
