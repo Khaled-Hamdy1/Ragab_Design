@@ -13,6 +13,12 @@ export default {
       height: {
         display: "calc(100vh - 5rem)", // 5rem is the height of the navbar(4rem) + gap (1rem)
       },
+      boxShadow:{
+        "list": "0 0 10px 0 rgba(0, 0, 0, 0.1)",
+      }
+    },
+    fontFamily: {
+      list: ["Roboto", 'sans-serif'],
     },
   },
   plugins: [],
