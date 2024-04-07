@@ -1,0 +1,16 @@
+export const discoverData = [
+  "Private Tour to Luxor",
+  "Private 2 Days Luxor Highlights Tour",
+  "Two Days Private Tour to Cairo",
+  "Full Day Trip to Cairo by Plane",
+  "Kairo zwei Tage private Cairo à la carte (exclusive)",
+  "program as desired Giza Pyramids, Sphinx, Saqqara & Dahshur tour (exclusive)",
+  "Half Day Tour to Dendera (Inspirational Moments)",
+  "Dendera & Abydos Private Day Tour",
+  "Hurghada Stadtrundfahrt",
+  "El-Gouna Stadtrundfahrt",
+  "Assuan & Abu Simbel two days trip",
+  "Monasteries of St. Anthony and St. Paul Trip",
+  "3 Hours Safari by Quad Bike & Camel Ride",
+  "5 Hours Safari by Quad Bike + Camel ride + Dinner + Folklore]",
+];

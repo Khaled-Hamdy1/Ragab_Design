@@ -39,21 +39,21 @@ export default function Welcome() {
         Egypt & Hurghada Excursions, Tours & Activities
       </h2>
       <div className='flex-between w-full flex-wrap gap-4'>
-        <Card title='Egypt Cultural Tours' image='card1' />
-        <Card title='Safari Tours & Trips' image='card2' />
-        <Card title='Snorkeling Tours & Trips' image='card3' />
+        <Card title='Egypt Cultural Tours' bgImage='bg-card1' />
+        <Card title='Safari Tours & Trips' bgImage='bg-card2' />
+        <Card title='Snorkeling Tours & Trips' bgImage='bg-card3' />
       </div>
     </section>
   );
 }
 
-function Card({ title, image }: { title: string; image: string }) {
+function Card({ title, bgImage }: { title: string; bgImage: string }) {
   return (
     <div
       className={`relative cursor-pointer overflow-hidden rounded-full bg-[#888] after:absolute after:left-0 after:top-0 after:z-10 after:h-full after:w-full after:bg-black after:opacity-0 hover:after:opacity-20`}
     >
       <div
-        className={`bg-${image} bg-contain bg-center bg-no-repeat px-16 py-24`}
+        className={`${bgImage} bg-contain bg-center bg-no-repeat px-16 py-24`}
       >
         <a className='text-[25px] text-white' href='#'>
           {title}
