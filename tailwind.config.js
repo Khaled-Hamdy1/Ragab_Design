@@ -7,6 +7,9 @@ export default {
         slider1: "url('@/assets/Memnon-Reisen-Hurghada-slider-1.jpg')",
         slider2: "url('@/assets/Memnon-Reisen-Hurghada-slider-2.jpg')",
         slider3: "url('@/assets/Tour-to-Cairo-11.jpg')",
+        card1 : "url('@/assets/0b.jpg')",
+        card2 : "url('@/assets/Culture-excursions.jpg')",
+        card3 : "url('@/assets/snorkling.jpg')",
       },
       boxShadow: {
         list: "0 0 10px 0 rgba(0, 0, 0, 0.1)",
